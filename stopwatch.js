@@ -27,6 +27,7 @@ start.addEventListener('click',()=>{
 // Adding click event for stop button
 stop.addEventListener('click',()=>{
 	clearInterval(interval);
+	start.innerHTML = 'Resume';
 })
 
 // Adding click event for reset button
